@@ -5,6 +5,7 @@ import home from "../../images/home.png"
 import heart from "../../images/heart.png"
 import explore from "../../images/explore.png"
 import search from "../../images/search.png"
+import Avatar from '../Avatar/Avatar'
 function Navigation() {
     return (
         <div className="navigation">
@@ -21,6 +22,7 @@ function Navigation() {
                     <img class="navigation__icon" src={send} alt="send" />
                     <img class="navigation__icon" src={explore} alt="explore" />
                     <img class="navigation__icon" src={heart} alt="heart" />
+                    <Avatar size={25} number={8}/>
                 </div>
             </div>
         </div>

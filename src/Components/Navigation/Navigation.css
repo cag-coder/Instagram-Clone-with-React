@@ -43,6 +43,12 @@
     font-size: 1rem;
     font-weight: 300;
 }
+.navigation__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .navigation__icon{
     width: 1.5rem;
     margin-right: 1.5rem;
