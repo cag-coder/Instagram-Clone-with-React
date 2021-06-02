@@ -1,0 +1,10 @@
+.main{
+    margin-top: 6rem;
+}
+
+.main__container{
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+    max-width: 1030px;
+}

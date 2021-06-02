@@ -1,6 +1,7 @@
 import React from 'react'
 import Story from './Story'
 import HorizontalScroll from 'react-scroll-horizontal'
+import "./Stories.css"
 
 function Stories() {
     const users =[
@@ -39,16 +40,28 @@ function Stories() {
         name:"lorem7 lorem",
         username: "lorem7"
     },
+    {
+        id:8,
+        name:"lorem7 lorem",
+        username: "lorem8"
+    },
+    {
+        id:9,
+        name:"lorem7 lorem",
+        username: "lorem9"
+    },
     ]
 
 
     return (
-        <div>
-            {
-                users.map(user =>
-                    <Story username={user.username} size={35} number={user.id} border={true}/>
+        <div className="stories">
+            <HorizontalScroll>
+                {
+                    users.map(user =>
+                        <Story username={user.username} size={60} number={user.id} border={true}/>
                     )
-            }
+                }
+            </HorizontalScroll>
         </div>
     )
 }

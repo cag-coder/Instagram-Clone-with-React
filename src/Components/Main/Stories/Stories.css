@@ -1,0 +1,10 @@
+.stories{
+    display: flex;
+    align-content: center;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    overflow: hidden;
+    height: 8.5rem;
+    width: 700px;
+}

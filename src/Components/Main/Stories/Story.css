@@ -1,0 +1,15 @@
+.story{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.story:first-child{
+    margin-left: 1rem;
+}
+.story__username{
+    font-size: 0.9rem;
+    font-weight: 300;
+}

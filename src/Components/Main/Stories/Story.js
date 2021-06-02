@@ -1,12 +1,12 @@
 import React from 'react'
 import Avatar from "../../Avatar/Avatar"
-
+import "./Story.css"
 
 function Story({size, number, border,username}) {
     return (
-        <div>
+        <div className="story">
             <Avatar size={size} number= {number} border={border}/>
-            <span>{username}</span>
+            <span className="story__username">{username}</span>
         </div>
     )
 }
