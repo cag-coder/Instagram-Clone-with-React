@@ -14,14 +14,14 @@ function Navigation() {
                     <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="" />
                 </div>
                 <div className="navigation__search">
-                    <img class="search__icon"src={search} alt="search" />
-                    <span class="search__text">Search</span>
+                    <img className="search__icon"src={search} alt="search" />
+                    <span className="search__text">Search</span>
                 </div>
                 <div className="navigation__icons">
-                    <img class="navigation__icon" src={home} alt="home" />
-                    <img class="navigation__icon" src={send} alt="send" />
-                    <img class="navigation__icon" src={explore} alt="explore" />
-                    <img class="navigation__icon" src={heart} alt="heart" />
+                    <img className="navigation__icon" src={home} alt="home" />
+                    <img className="navigation__icon" src={send} alt="send" />
+                    <img className="navigation__icon" src={explore} alt="explore" />
+                    <img className="navigation__icon" src={heart} alt="heart" />
                     <Avatar size={25} number={8}/>
                 </div>
             </div>
