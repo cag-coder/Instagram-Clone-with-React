@@ -1,0 +1,22 @@
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile__userInfo{
+    margin-left: 1.3rem;
+}
+
+.profile__userInfo h4{
+    font-weight: 500;
+}
+.profile__userInfo h5{
+    font-weight: 700;
+    color: #a3a3a3;
+}
+
+.profile__link{
+   margin-left: 5rem;
+   text-decoration: none;
+   color: #139DF7;
+}

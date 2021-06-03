@@ -9,6 +9,9 @@
 .story:first-child{
     margin-left: 1rem;
 }
+.story:last-child{
+    margin-right: 1rem;
+}
 .story__username{
     font-size: 0.9rem;
     font-weight: 300;
