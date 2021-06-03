@@ -5,11 +5,22 @@
     padding: 1rem;
     margin-top: 0.4rem;
     margin-left: 0.5rem;
-    width: 25rem;
+    width: 22rem;
     position: sticky;
     top: 0;
     right: 0;
 }
 
+.sidebar__recommendation{
+    margin-top: 2rem;
+}
+.recommendation-tittle{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
 
+.recommendation-tittle a{
+   text-decoration: none;
 
+}
