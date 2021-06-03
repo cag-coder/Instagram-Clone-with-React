@@ -20,7 +20,37 @@
     justify-content: space-between;
 }
 
+.recommendation-tittle h4{
+    color: #a3a3a3;
+}
+
 .recommendation-tittle a{
    text-decoration: none;
 
+}
+
+
+.sidebar__footer{
+    font-size: 0.8rem;
+    color: #cdcdcd;
+    margin-top: 2rem;
+}
+
+.sidebar__links{
+    display: flex;
+    flex-wrap: wrap;
+    
+    list-style: none;
+}
+.sidebar__links li::after{
+    content: "\2022";
+    margin: 0 .3rem;
+}
+
+.sidebar__links li:last-child::after{
+    content: "";
+}
+
+.sidebar__copyright{
+    margin-top: 1.5rem;
 }

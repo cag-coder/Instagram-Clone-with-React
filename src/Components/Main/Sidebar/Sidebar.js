@@ -51,7 +51,24 @@ function Sidebar() {
                     )}
                 </div>
             </div>
-            <div className="sidebar__footer">sidefooter</div>
+            <div className="sidebar__footer">
+                <ul className="sidebar__links">
+                    <li>About</li>
+                    <li>Help</li>
+                    <li>Press</li>
+                    <li>API</li>
+                    <li>Jobs</li>
+                    <li>Privacy</li>
+                    <li>Term</li>
+                    <li>Locations</li>
+                    <li>Top Accounts</li>
+                    <li>Hashtags</li>
+                    <li>Language</li>
+                </ul>
+                <div className="sidebar__copyright">
+                    @ 2020 INSTAGRAM FROM FACEBOOK
+                </div>
+            </div>
         </div>
     )
 }
