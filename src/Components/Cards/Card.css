@@ -1,0 +1,29 @@
+.card{
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    max-width: 42.5rem;
+    height:45rem;
+}
+.card__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    
+}
+.card__user{
+    display: flex;
+    align-items: center;
+}
+.card__user span{
+    margin-left: 1rem;
+}
+
+.card__dots{
+    height: 1rem;
+    margin-top: 0.5rem;
+}
+
+.card__image{
+    width: 100%;
+    display: block;
+}
