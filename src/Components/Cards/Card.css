@@ -2,8 +2,12 @@
     background-color: #fff;
     border: 1px solid #dbdbdb;
     max-width: 42.5rem;
-    height:45rem;
+    height:77rem;
+    margin-top: 3rem;
+    
 }
+
+
 .card__header{
     display: flex;
     justify-content: space-between;
@@ -26,4 +30,53 @@
 .card__image{
     width: 100%;
     display: block;
+    height: 55rem;
+}
+.card__body{
+    padding: 1rem;
+}
+.card__icons{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card__icon{
+    height: 1.8rem;
+}
+
+.card__icon:not(:first-child){
+    margin-left: 1rem;
+}
+
+.card_views{
+    margin-top: 0.8rem;
+}
+
+.card__time{
+    margin-top: 0.3rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #a3a3a3;
+}
+
+.card__addComment{
+    
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #dbdbdb;
+    padding: 1rem;
+    color: #a3a3a3;
+
+}
+
+
+@media only screen and (max-width:1024px){
+    .card{
+        margin: 0 auto;
+    }
 }

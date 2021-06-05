@@ -6,10 +6,6 @@
     margin-top: 0.4rem;
     margin-left: 0.5rem;
     width: 22rem;
-    position: fixed;
-    top: 15;
-    right: 28g0px;
-    
 }
 
 .sidebar__recommendation{
@@ -54,4 +50,10 @@
 
 .sidebar__copyright{
     margin-top: 1.5rem;
+}
+
+@media only screen and (max-width:1024px){
+    .sidebar{
+        display: none;
+    }
 }

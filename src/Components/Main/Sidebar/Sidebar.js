@@ -1,6 +1,7 @@
 import React from 'react'
 import Avatar from "../../Avatar/Avatar"
 import Profile from './Profile'
+import Sticky from "react-sticky-el"
 import "./Sidebar.css"
 function Sidebar() {
     const users =[
@@ -33,6 +34,7 @@ function Sidebar() {
 
     return (
         <div className="sidebar">
+            <Sticky topOffset={-80}>
             <div className="sidebar__user">
                 <Profile size={65} name="Cagatay Em" username="Developer"/>
             </div>
@@ -69,6 +71,7 @@ function Sidebar() {
                     @ 2020 INSTAGRAM FROM FACEBOOK
                 </div>
             </div>
+            </Sticky>
         </div>
     )
 }

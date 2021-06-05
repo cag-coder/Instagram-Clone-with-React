@@ -9,3 +9,9 @@
     max-width: 1030px;
     height: 12rem;
 }
+
+@media only screen and (max-width:1024px){
+    .main__container{
+        justify-content: center;
+    }
+}
